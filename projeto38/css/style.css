@@ -1,0 +1,215 @@
+*{
+    margin:0;
+    border:0;
+    padding:0;
+}
+
+body{
+    width: 100%;
+    height: auto;
+}
+
+main{
+    width: 90%;
+    height: auto;
+    background-color: blue;
+    margin: auto;
+}
+
+header{
+    width:100%;
+    height:140px;
+    margin:auto;
+    background-color:white;
+}
+
+header #logotipo{
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    float: left;
+}
+
+h1, .logotipo{
+    position: absolute;
+    top:40px;
+    left:35%;
+    z-index: 0;
+}
+
+header #usuario{
+    width:10%;
+    height:100%;
+    top:20px;
+    position: relative;
+    float:right;
+}
+
+nav{
+    width:100%;
+    height:60px;
+    margin:auto;
+    background-color: #fff;
+    position: relative;
+    font-family:Tahoma;
+}
+
+#busca{
+    width: 40%;
+    position: relative;
+    float: left;
+    top:20px;
+    left:5%;
+}
+
+#menu{
+    width:60%;
+    position: relative;
+    float: left;
+    top:20px;
+}
+
+#menu a{
+    width:16%;
+    height:auto;
+    text-align:center;
+    text-decoration:none;
+    font-size:16px;
+    color: rgb(36, 33, 33);
+    float: left;
+    border-left: 1px solid #000;
+}
+
+#menu a:first-child{
+    border-left: 0px;
+}
+
+#menu a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+article{
+    width: 100%;
+    height: 350px;
+    background-color: gray;
+}
+
+#banner img{
+    width: 90%;
+    height: 350px;
+    margin: auto;
+    position: absolute;
+    top:200px;
+    left:20;
+    z-index: 0;
+}
+
+/* #banner figcaption{
+    width: 88.55%;
+    height: 55px;
+    margin: auto;
+    margin-top: 295px;
+    line-height: 55px;
+    position: absolute;
+    z-index: 5;
+    padding-left: 20px;
+    color: #fff;
+    font-family: "kaushan script","Lato","arial";
+    font-size: 18px;
+    background: rgba(0,0,0,0.76);
+} */
+
+section{
+    width: 70%;
+    height: auto;
+    position: relative;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(114, 112, 112);
+}
+
+#eventos{
+    width: 44%;
+    height: auto;
+    margin: 4% 4% 4% 2%;
+    position: relative;
+    float: left;
+}
+
+.evento1, .evento2, .evento3{
+    width: 100%;
+    height: 400px;
+}
+
+.feventos{
+    width: 100%;
+    height: 150px;
+    padding: 20px 0px 20px;
+    border-top: 2px solid rgb(151, 151, 151);
+}
+
+h2{
+    text-align: left;
+    font-size: 30px;
+    color: rgb(66, 177, 134);
+    padding-bottom:10px;
+}
+
+h3{
+    font-size: 20px;
+    padding: 5px 0 10px;
+    color: rgb(83, 78, 78);
+}
+
+h4{
+    font-size: 16px;
+    padding: 10px 0px 20px;
+    font-weight: normal;
+}
+
+.materia{
+    text-align: left;
+    font-size: 16px;
+    color: rgb(66, 177, 134);
+    padding-bottom:10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#informativos{
+    width: 44%;
+    height: 900px;
+    margin: 4% 2% 4% 2%;
+    position: relative;
+    float: left;
+}
+
+aside{
+    width: 28%;
+    height: 900px;
+    margin: 8% 0 4% 0;
+    position: relative;
+    float: left;
+}
+
+aside img{
+    width: 100%;
+    height: 500px;
+    padding-bottom: 60px;
+}
+
+.paginas{
+    background-color: #fff;
+    padding-left: 45%;
+    padding-bottom: 4%;
+    font-size: 14pt;
+    font-family: sans-serif;
+    clear: left;
+}
+
+.anterior, .proximo {
+    color: #000;
+}

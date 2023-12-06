@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body{
+    width: 80%%;
+    /* height: 1250px; */
+    margin: 1%;
+    margin-bottom: 2.5%;
+    text-align:left;
+    font-size:20px;
+    font-family:sans-serif;
+
+}
+
+.paginas {
+    font-size: 14pt;
+    font-family: sans-serif;
+    padding-top: 535px;
+    text-align: center;
+}
+
+.anterior, .proximo {
+    color: #000;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>jQuery Parte III</title>
+        <style>
+            *{
+            margin:0;  
+            padding:0;
+            border:0;
+            }
+            
+            body {
+                width: 98%;
+                height: auto;
+                margin: 1%;
+            }
+
+            main{
+                position:relative;
+                width:100%;
+                height:610px;
+            }
+
+            div img{
+                width:19.5%;
+                height:auto;
+                padding-bottom:30px;
+            }
+
+            .paginas {
+            background-color: #fff;
+            margin: auto;
+            width: 20%;
+            font-size: 100%;
+            font-family: sans-serif;
+            padding-left: 20%;
+            }
+
+            .anterior, .proximo {
+                color: #000;
+            }
+            
+        </style>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+        <script type="text/javascript" src="/projeto33/jquery.magnifier.js">
+        </script>
+    </head>
+    <body>
+        <main>
+            <div id="thundercats"><img src="Thundercats.jpg" class="magnify"></div>
+            <div id="batman"><img src="batman.jpg" class="magnify"></div>
+        </main>
+        <footer class="paginas">
+            <a class="anterior" href="/projeto32/index.html" target="_blank">« anterior</a>
+            <a class="proximo" href="/projeto34/index.html" target="_blank">próximo »</a>
+        </footer>
+    </body>
+</html>

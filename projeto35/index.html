@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript Parte I</title>
+        <!-- style -->
+        <style>
+            *{
+                margin:0;
+                padding:0;
+                border:0;
+            }
+
+            body{
+                width: 98%;
+                height: auto;
+                margin: 1%;
+                color:#000;
+                text-align:left;
+                font-size:12px;
+                font-family:sans-serif;
+            }
+            .paginas {
+                padding-left: 47%;
+                font-size: 14pt;
+                font-family: sans-serif;
+                padding-top: 310px;
+                }
+
+            .anterior, .proximo {
+                color: #000;
+            }
+        </style>
+        <!-- script -->
+        <script language="javascript">
+
+            //comentario em linha
+
+            /*comentario em bloco
+            autor: Marti de Castro
+            versão:1.0
+            */
+
+            //Criando VARIÁVEIS
+        
+            var nome, aula1;
+            var sobreNome,
+                sexo;
+
+            // Definindo a variável do tipo literal STRING
+
+            nome = "Marti"; 
+            sobreNome = "de Castro";
+            sexo = "Masculino";
+
+            //Saída com ALERT
+            
+            alert("A pessoa, " + nome + " " + sobreNome + " é do sexo " + sexo);
+
+            document.write("A pessoa, " + nome + " " + sobreNome + " é do sexo: " + sexo);
+            
+            var a, b, c;
+
+            a = 9;
+            b = 8.6;
+            c = 10;
+
+            i = 10;
+
+            somar = (a+b+c);
+
+            // Entrada com prompt do JavaScript
+
+            a = window.prompt("Você está se sentindo com sorte?");
+            alert(a);
+
+            document.write("<br> As variáveis somadas são: " + somar + "<br>")
+        
+        // Contador Inclemento
+        c = 0;
+
+        c =  c + 1;
+        document.write ("Esta variável é um: " + c + "<br>");
+        //ou
+        c ++;
+        document.write ("Esta variável é um: " + c + "<br>");
+        //ou
+        ++ c;
+        document.write ("Esta variável é um: " + c + "<br>");
+
+        //Contador Declemento
+
+        d = 10;
+
+        d =  c - 1;
+        document.write ("Esta variável é um: " + d + "<br>");
+        //ou
+        d --;
+        document.write ("Esta variável é um: " + d + "<br>");
+        //ou
+        -- d;
+        document.write ("Esta variável é um: " + d + "<br>");
+
+        // Manipulando Variáveis do tipo REAL
+
+        c = 44.92;
+
+        // Valor inteiro do Número
+        document.write("<br> valor inteiro de c é: " + parseInt(c));
+        // Valor flutuante do Número
+        document.write("<br> valor flutuante de c é: " + parseFloat(c));
+
+        // Valor dá fração
+        aux = Math.floor(c);
+        resto = c - aux;
+        document.write("<br> valor da fração de c é: " + resto);
+
+        // Ou usando Expressão Regular (parte mais avançada, posso usar para fazer máscara)
+        c = parseInt(/^[0-9]*?(?:[\.,])([0-9]*?)$/g.exec(c.toString())[1]);
+
+        document.write("<br> valor da fração de c é: " + c);
+
+        /* trabalhando com texto */
+        titulo = "construindo JS";
+        nome = "marti";
+
+        // convertendo letras em maiúsculas
+        document.write("<br>" + nome.toUpperCase());
+
+        // converttendo letras em minusculas
+        document.write("<br>" + titulo.toLowerCase());
+
+        // quantidade de crecteres em um string
+        document.write("<br>Quantidade de caracteres do meu nome: " + nome.length);
+
+        // Criando Máscara para CNPJ - tem que ser tudo na mesma linha
+        cnpj = "11133366000178";
+        
+        document.write("<br/>CNPJ: " + cnpj.substr(0,2) + "." + cnpj.substr(2,3) + "." + cnpj.substr(5,3) + "/" + cnpj.substr(8,4) + "-" + cnpj.substr(12,2));
+
+        // Estrutura Caso
+
+        n = 20
+
+        switch (n){
+            case 1:
+                document.write("<br> um ");
+                break; // tenho que forçar a parada da estrutura ce CASO
+            case 2:
+                document.write("<br> dois ");
+                break; // tenho que forçar a parada da estrutura ce CASO
+            default:
+                document.write("<br> outro número");
+        }
+
+        document.write("<br>&nbsp;<br>"); // Pular duas linhas
+
+        // Sistema de média
+        var nome, materia, bim1, bim2, bim3, bim4, media
+
+        nome = "Marti";
+        materia = "Lógica de Programação";
+
+        bim1= 7.5;
+        bim2= 6.6;
+        bim3= 8;
+        bim4= 9;
+
+        media = (bim1+bim2+bim3+bim4)/4
+
+        // Estrutura de Condição SE
+
+        if(media >= 7){
+            document.write("Aluno(a): " + nome + ", na matéria de " + materia + ", está aprovado com a média: " + media + ".")
+        }else {
+            document.write("Aluno(a): " + nome + ", na matéria de " + materia + ", está reprovado com a média: " + media + ".")
+        }
+        </script>
+    </head>
+    <body>
+        <br>
+        marti
+        Marti
+        MARTI
+        <footer class="paginas">
+            <a class="anterior" href="/projeto34/index.html" target="_blank">« anterior</a>
+            <a class="anterior" href="/projeto36/index.html" target="_blank">proximo »</a>
+        </footer>
+    </body>
+</html>
