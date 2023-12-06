@@ -1,0 +1,252 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body{
+    font-size:16px;
+    font-family:Helvetica;
+}
+
+main{
+    width:96%;
+    height:1080px;
+    margin:auto;
+    margin-top:25px;
+    margin-bottom:25px;
+    padding-top:25px;
+    padding-bottom:25px;
+}
+
+form{
+    width:90%;
+    height:auto;
+    margin:auto;
+    padding:3%;
+}
+
+@font-face {
+    font-family:Pangolin;
+    src: url(fonts/Pangolin/Pangolin-Regular.ttf);
+}
+
+legend{
+    width:100%;
+    height:40px;
+    background-color:rgb(155, 223, 217);
+    border-radius:15px;
+    padding-top:30px;
+    padding-bottom:30px;
+    margin-top:30px;
+    margin-bottom:30px;
+    font-family:Pangolin;
+    font-size:30px;
+    text-align:center;
+    color:#fff;
+}
+
+input{
+    border:1px solid #ccc;
+    padding:5px;
+    border-radius:6px;
+}
+
+div{
+    display:inline-block;
+    color:gray;
+    font-size:14px;
+    padding-bottom:20px;
+}
+
+.info_nome{
+    padding-right:170px;
+    font-weight:bold;
+}
+
+.leg_nome{
+    width:105px;
+    padding-left:225px;
+}
+
+.info_tel{
+    padding-right:115px;
+    font-weight:bold;
+}
+
+.leg_ddd1{
+    width:65px;
+    padding-left:225px;
+}
+
+.info_cel{
+    padding-right:95px;
+    font-weight:bold;
+}
+
+.leg_ddd2{
+    width:67px;
+    padding-left:225px;
+}
+
+.info_email{
+    padding-right:175px;
+    font-weight:bold;
+}
+
+.info_email ::placeholder{
+    font-size:14px;
+    color:gray;
+}
+
+.leg_email{
+    width:150px;
+    padding-left:225px;
+}
+
+.info_end{
+    padding-right:145px;
+    font-weight:bold;
+}
+
+.leg_end{
+    width:67px;
+    padding-left:225px;
+}
+
+.info_endcont{
+    width:400px;
+    padding-bottom:0;
+    padding-left:225px;
+}
+
+.leg_endcont{
+    width:400px;
+    padding-left:228px;
+}
+
+.info_cidade{
+    width:190px;
+    padding-bottom:0;
+    padding-left:225px;
+    
+}
+.info_estado{
+    width:10px;
+    padding-bottom:0;
+    padding-left:0px;
+}
+
+.info_estado ::placeholder{
+    font-size:14px;
+    color:gray;
+}
+
+.leg_cidade{
+    width:100px;
+    padding-left:228px;
+    padding-right:90px;
+}
+
+.info_cep{
+    width:50px;
+    padding-bottom:0;
+    padding-left:225px;
+}
+
+.leg_cep{
+    width:80px;
+    padding-left:228px;
+}
+
+.info_nomeaniver{
+    padding-right:40px;
+    font-weight:bold;
+}
+
+.leg_nomeaniver{
+    width:110px;
+    padding-left:230px;
+}
+
+.info_aniversario{
+    padding-right:25px;
+    font-weight:bold;
+}
+
+.leg_aniversario{
+    width:160px;
+    padding-left:228px;
+}
+
+.info_serv{
+    padding-right:2px;
+    font-weight:bold;
+}
+
+.opcao1{
+    color:#000;
+    padding-left:100px;
+}
+
+.opcao2{
+    color:#000;
+    padding-left:225px;
+}
+
+.info_pacote{
+    padding-right:40px;
+    font-weight:bold;
+}
+
+div select{
+    width:100px;
+    font-size:14px;
+    border:1px solid #000;
+}
+
+.info_pagto{
+    padding-right:13px;
+    font-weight:bold;
+}
+
+.info_obs{
+    padding-right:75px;
+    font-weight:bold;
+}
+
+textarea{
+    width:160px;
+    padding-left:228px;
+    border:1px solid #000;
+}
+
+input[type="checkbox"] { 
+    border-radius: 50%;
+ }
+
+footer {
+padding-top: 620px;
+padding-left: 46%;
+}
+
+ .paginas {
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color: rgb(155, 223, 217);
+    text-decoration: none;
+    color: #fff;
+    margin: auto;
+    width: 170px;
+    margin-top: 2%;
+    margin-bottom: 6%;
+    padding-bottom: 0;
+}
+
+.anterior {
+    padding-right: 5%;
+}
+
+a {
+    color: gray;
+}

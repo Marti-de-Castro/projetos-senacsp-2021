@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    border:0;
+    padding:0;
+}
+
+body{
+    text-align:center;
+    font-family:verdana;
+    font-size:14px;
+    }
+
+main{
+    position:relative;
+    width:98%;
+    height:610px;
+    margin:auto;
+}
+    
+.morango{
+    position:relative;
+    width:15%;
+    height:auto;
+    margin:30px;
+    }
+
+.limao{
+    position:relative;
+    width:17%;
+    height:auto;
+    margin:30px;
+    }
+
+.maca{
+    position:relative;
+    width:19%;
+    height:auto;
+    margin:30px;
+    }
+
+.laranja{
+    position:relative;
+    width:13%;
+    height:auto;
+    margin:30px;
+    }    
+
+div{
+    position:absolute;
+    width:400px;
+    height:auto;
+    border:5px double;
+    padding:10px;
+    text-align:justify;
+    top: 250px;
+    left:500px;
+    z-indez:1;
+    visibility:hidden; /* ocultando as camadas */
+    }
+
+div .morango{
+    width:50%;
+    height:auto;
+    margin:10px;
+    float:left;
+    }
+
+div .limao{
+    width:50%;
+    height:auto;
+    margin:10px;
+    float:left;
+    }
+
+div .maca{
+    width:50%;
+    height:auto;
+    margin:10px;
+    float:left;
+    }
+
+div .laranja{
+    width:50%;
+    height:auto;
+    margin:10px;
+    float:left;
+    }
+
+#morango{
+background-color:#F00;
+color:pink;
+border-color:pink;
+}
+#limao{
+background-color:#060;
+color:#0F0;
+border-color:#0F0;
+}
+#maca{
+background-color:#900;
+color:#ffd;
+border-color:#ffd;
+}
+#laranja{
+background-color:#F60;
+color:#Fd0;
+border-color:#Fd0;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.paginas {
+    font-size: 24px;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: auto;
+}
+
+.anterior {
+    padding-right: 5%;
+}

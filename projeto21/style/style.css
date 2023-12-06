@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    border:0;
+    padding:0;
+}
+
+/* tipos de extensões de fontes eot, woff e ttf*/
+@font-face {
+    font-family: teste1;
+    src: url(/projeto21/fonts/Permanent_Marker/PermanentMarker-Regular.ttf);
+}
+
+@font-face {
+    font-family: teste2;
+    src: url(/projeto21/fonts/Pacifico/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family:teste3;
+    src: url(/projeto21/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+
+body {
+    padding: 1%;
+}
+
+.fonte1{
+    font-family:teste1;
+    font-size:30px;
+    color:red;
+}
+
+.fonte2{
+    font-family:teste3;
+    font-size:30px;
+    color:blue;
+}
+
+.fonte3{
+    font-family:teste3;
+    font-size:30px;
+    color:green;
+}
+
+.paginas {
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: auto;
+    width: 170px;
+    margin-top: 18%;
+}
+
+.anterior {
+    padding-right: 5%;
+}

@@ -1,0 +1,253 @@
+*{
+border:0;
+margin:0;
+padding:0;
+}
+
+main{
+position:relative;
+width:90%;
+height:720px;
+background-color:#c3d8e8;
+margin:auto;
+}
+
+#cabecalho{
+position:relative;
+width:100%;
+height:50px;
+/*background-color:#FF0;*/
+display:flex;
+flex-direction:row;
+align-items:center;
+justify-content: space-around;
+}
+
+#menu_esquerdo{
+    position:relative;
+    width:35%;
+    height:auto;
+    /*background-color:rgb(25, 31, 25);*/
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+    justify-content:space-around;
+    padding-top:18px;
+    padding-bottom:18px;
+}
+
+#menu_esquerdo a{
+    font-size:12px;
+    color:#666;
+    text-decoration:none;
+    font-family:arial;
+    font-weight:bold;
+}
+
+#mail{
+    position: relative;
+    width: 30%;
+    height: 50px;
+    /*background-color: #F00;*/
+    text-align: center;
+}
+
+#menu_direito{
+    position:relative;
+    width:45%;
+    height:50px;
+    /*background-color:#00F;*/
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.link1{
+    width:100px;
+    height:50px;
+    padding-top:10px;
+    float:left;
+}
+
+.link2{
+    border:1px solid #333;
+    text-align:center;
+    font-size:12px;
+    color:#666;
+    text-decoration:none;
+    font-family:Arial;
+    width:100px;
+    height:auto;
+    float:left;
+    padding-top:12px;
+    padding-bottom:12px;
+    font-weight:bold;
+}
+
+.link3, .link4, .link5{
+    text-align:center;
+    font-size:12px;
+    color:#fff;
+    text-decoration:none;
+    font-family:arial;
+    width:201px;
+    height:auto;
+    float:left;
+    background-color:#13615E;
+    padding-top:12px;
+    padding-bottom:12px;
+    font-weight:bold;
+}
+
+#miolo{
+    position:relative;
+    width:80%;
+    height:400px;
+    /*background-color:#F0F;*/
+    margin:auto;
+    margin-top:200px;
+}
+
+#lado_esquerdo{
+    position:relative;
+    width:50%;
+    height:400px;
+    /*background-color:#fff;*/
+    float:left;
+    flex-direction:column; /*alinhamento na vertical*/
+    align-items:center;
+    justify-content:space-around;
+}
+
+#lado_direito{
+    position: relative;
+    width:50%;
+    height:400px;
+    /*background-color:#0ff;*/
+    float:left;
+}
+
+@font-face {
+    font-family: mailchimp;
+    src: url(/projeto24/fonts/Source_Serif_Pro/SourceSerifPro-Regular.ttf);
+}
+
+#titulo_meio{
+    font-family: mailchimp;
+    font-size: 50px;
+    color:rgb(56, 52, 52);
+    height: 180px;
+}
+
+#lado_esquerdo p{
+    font-family: verdana;
+    font-size: 20px;
+    color:#666;
+    height: 100px;
+}
+
+.link4{
+    width:101px;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+#big_mood{
+    position: relative;
+    width: 80%;
+    height:280px;
+    background-color: #f8d4c6;
+    border-radius: 3%;
+    border: 1px solid;
+    padding-top: 1%;
+}
+
+#topo{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.direita{
+    float: right;
+}
+
+#big_mood p{
+    text-align:center;
+    width:100%;
+    height:auto;
+    color:#fa8072;
+    font-size:20px ;
+    font-weight:bold;
+    font-family:Arial;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+#figura{
+    margin-left:30px;
+    position: relative;
+}
+
+#shopping_cart{
+    position:absolute;
+    width: 50%;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 5%;
+    border: 2px solid;
+    top:150px;
+    left: 260px;
+    padding-top:1%;
+    box-shadow: 5px 5px 5px #000;
+}
+
+#shopping_cart p{
+    width:96%;
+    background-color: #f8f8ff;
+    padding:2%;
+    border-bottom: 2px solid;
+}
+
+#figura_cart{
+    position: relative;
+    width: 98%;
+    height: 130px;
+    background-color: #f8f8f9;
+}
+
+#figura_cart img{
+    width: 100%;
+    height: 100%;
+}
+
+#checkout{
+    position:relative;
+    width:65%;
+    height:auto;
+    background-color: #13615e;
+    margin:auto;
+    border-radius:8%;
+    padding:5px;
+
+}
+
+#checkout a{
+    font-family: Arial;
+    text-decoration:none;
+    color:#fff;
+    text-align:center;
+    font-size:14px;
+}
+
+.paginas {
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: auto;
+    width: 170px;
+}
+
+.anterior {
+    padding-right: 5%;
+}

@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    border:0;
+    padding:0;
+}
+
+body {
+    padding: 2%;
+}
+
+div{
+    position:relative;
+    width:300px;
+    height:200px;
+    border: 1px solid #333;
+    padding:10px;
+    float:left;
+}
+
+img{
+    width:80%;
+}
+
+#foto1 img{
+    transform:rotate(0deg);
+    transition:2s all;
+}
+
+#foto1 img:hover{
+    transform:rotate(360deg);
+    transition:5s all;
+}
+
+#foto2 img{
+    transform:rotateX(10deg);
+    transition:2s all;
+}
+
+#foto2 img:hover{
+    transform:rotateX(90deg);
+    transition:2s all;
+}
+
+#foto3 img{
+    transform:rotateY(0deg);
+    transition:2s all;
+}
+
+#foto3 img:hover{
+    transform:rotateY(360deg);
+    transition:2s all;
+}
+
+#foto4 img{
+    transform:translate(0px,0px);
+    transition:2s all;
+}
+
+#foto4 img:hover{
+    transform:translate(100px,50px);
+    transition:2s all;
+}
+
+#foto5 img{
+    transform:translateX(0px);
+    transition:2s all;
+}
+
+#foto5 img:hover{
+    transform:translateX(200px);
+    transition:2s all;
+}
+
+#foto6 img{
+    transform:translateY(0px);
+    transition:2s all;
+}
+
+#foto6 img:hover{
+    transform:translate(100px,150px) rotate(180deg);;
+    transition:2s all;
+}
+
+#foto7 img{
+    transform:scale(1.0);
+    transition:2s all;
+}
+
+#foto7 img:hover{
+    transform:scale(0.5);
+    transition:2s all;
+}
+
+#foto8 img{
+    transform:scale(1.0);
+    transition:2s all;
+}
+
+#foto8 img:hover{
+    transform:scale(2.5);
+    transition:2s all;
+}
+
+#foto9 img{
+    transform:rotate(0deg);
+    transition-duration:2s;
+}
+
+#foto9 img:hover{
+    transform:scale(0.5) rotate(-90deg);
+    transition-duration:2s;
+}
+
+#foto10 img{
+    transition-duration:2s;
+}
+
+#foto10 img:hover{
+    transform:scale(1.8) translate(20px,50px) rotate(360deg);
+    transition-duration:2s;
+}
+
+#foto11 img{
+    transform:skew(0deg);
+    transition:2s all;
+}
+
+#foto11 img:hover{
+    transform:skew(45deg);
+    transition:2s all;
+}
+
+#foto12 img{
+    transform:skew(0deg);
+    transition:2s all;
+}
+
+#foto12 img:hover{
+    transform:skew(-45deg);
+    transition:2s all;
+}
+
+#foto13 img{
+    transition:2s all;
+}
+
+#foto13 img:hover{
+    transform:skew(-30deg) rotate(180deg) scale(0.8);
+    transition:2s all;
+}
+
+footer {
+    padding-top: 720px;
+    padding-bottom: 3%;
+}
+
+.paginas {
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: auto;
+    width: 170px;
+    margin-top: 15%;
+
+}
+
+.anterior {
+    padding-right: 5%;
+}
