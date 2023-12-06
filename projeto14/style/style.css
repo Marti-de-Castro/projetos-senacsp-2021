@@ -1,0 +1,135 @@
+* {
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body {
+    font-size:12px;
+}
+
+main {
+    position:relative;
+    width:90%;
+    height:600px;
+    background-color:#CCF;
+    margin:auto;
+    margin-top:20px;
+}
+
+header {
+    position:relative;
+    width:100%;
+    height:100px;
+    background-color:#09F;
+    text-align:center;
+    font-size:30px;
+    font-family:Arial;
+    color:#006;
+}
+
+nav {
+    position:relative;
+    width:98.5%;
+    height:30px;
+    background-color:#999;
+    padding-left: 1.5%;
+}
+
+#lateral {
+    position:relative;
+    width:30%;
+    height:400px;
+    background-color:#0FD;    
+    float:left;
+}
+
+#div1, #div2 {
+    position:relative;
+    width:90%;
+    height:150px;
+    background-color:#FFF;
+    margin:auto;
+    margin-top:15px;
+}
+
+#div2 {
+    background-color:#FF0;
+}
+
+#meio {
+    position:relative;
+    width:50%;
+    height:400px;
+    background-color:#CFF;    
+    float:left;
+}
+
+article {
+    position:relative;
+    width:90%;
+    height:385px;
+    background-color:#0FA;
+    margin:auto;
+    margin-top:15px;
+}
+
+article header {
+    position:relative;
+    width:100%;
+    height:30px;
+    background-color:#FC0;
+    text-align:center;
+    font-size:18px;
+}
+
+article p {
+    position:relative;
+    width:98%;
+    height:110px;
+    background-color:#FF0;
+    margin:auto;
+    margin-top:20px;
+}
+
+#imagem {
+    position:relative;
+    width:98%;
+    height:130px;
+    background-color:#FDF;
+    margin:auto;
+    margin-top:20px;
+}
+
+aside {
+    position:relative;
+    width:20%;
+    height:400px;
+    background-color:#FD0;
+    float:left;
+}
+
+footer {
+    position:relative;
+    width:100%;
+    height:70px;
+    background-color:#000;
+    color:#FFF;
+    text-align:center;
+    clear:left;
+}
+
+.paginas {
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color: #ddd;
+    text-decoration: none;
+    margin: auto;
+    width: 170px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.anterior {
+    padding-right: 5%;
+}

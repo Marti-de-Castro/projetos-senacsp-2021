@@ -1,0 +1,148 @@
+* {
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+#fundo {
+    position:relative;
+    width:1320px;
+    height:585px;;
+    background-color:purple;
+    margin: auto;
+    margin-top:20px;
+}
+
+#cabecalho {
+    position:relative;
+    width:1320px;
+    height:80px;
+    background-color:#AAAAFF;
+    font-family:Verdana;
+    font-size:25px;
+    text-align:center;
+}
+
+#separacao {
+    position:relative;
+    width:1320px;
+    height:30px;
+    background-color:#AAAA99;
+}
+
+#fundo-meio {
+    position:relative;
+    width:1100px;
+    height:400px;
+    background-color:#AAFFFF; 
+    float:left;
+}
+
+#fundo-esquerda {
+    position:relative;
+    width:340px;
+    height:390px;
+    background-color:#AAFFCC;
+    padding:15px;
+    float:left;
+}
+
+#branca {
+    position:relative;
+    width:340px;
+    height:150px;
+    background-color:#FFFFFF;
+    margin-bottom: 15px;
+}
+
+#amarela {
+    position:relative;
+    width:340px;
+    height:150px;
+    background-color:#FFFF00;
+}
+
+#fundo-direita {
+    position:relative;
+    width:690px;
+    height:380px;
+    background-color:#99FF99;
+    margin-top:20px;
+    margin-left:20px;
+    float:left;
+}
+
+#titulo {
+    position:relative;
+    width:690px;
+    height:20px;
+    background-color:#FFFF99;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+#texto {
+    position:relative;
+    width:680px;
+    height:130px;
+    background-color:#FFFF00;
+    margin:5px;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* imagem */
+#rosa {
+    position:relative;
+    width:680px;
+    height:130px;
+    background-color:#FF9999;
+    margin:5px;
+    margin-top:10px;
+    font-family: sans-serif;
+}
+
+#publicidade {
+    position:relative;
+    width:220px;
+    height:400px;
+    background-color:#FFCC00;
+    font-family: sans-serif;
+    float:left;
+}
+
+#rodape {
+    position:relative;
+    width:1320px;
+    height:80px;
+    background-color:black;
+    clear:left;
+    color:white;
+    text-align:center;
+    font-family: sans-serif;
+}
+
+#rodape2 {
+    margin-top: 15px;
+    text-align: left;
+    padding-left: 2%;
+}
+
+.paginas {
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color: #ddd;
+    text-decoration: none;
+    margin: auto;
+    width: 170px;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.anterior {
+    padding-right: 5%;
+}

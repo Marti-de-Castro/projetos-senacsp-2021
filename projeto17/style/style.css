@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+main{
+    position:relative;
+    width:90%;
+    height:auto;
+    margin:auto;
+}
+
+body{
+    color:#fff;
+    text-align:center;
+    font-size:30px;
+    font-family:verdana;
+}
+
+header{
+    position:relative;
+    width:100%;
+    height:auto;
+    padding-top:30px;
+    padding-bottom:30px;
+    background-color:#000;
+    color:#FFF;
+}
+
+#menu_horizontal{
+    position:relative;
+    width:100%;
+    height:40px;
+    background-color:#009;
+}
+
+#menu_horizontal a{
+    width:16.66%;
+    height:auto;
+    text-align:center;
+    text-decoration:none;
+    font-size:15px;
+    color:#fff;
+    padding-top:10px;
+    padding-bottom:10px;
+    float:left;
+}
+
+#menu_horizontal a:hover{
+    background-color:#fff;
+    color:#009;
+    transition:2s all;
+}
+
+#menu_vertical{
+    position:relative;
+    width:20%;
+    height:460px;
+    background-color:#CCA;
+    float:left;
+}
+
+#menu_vertical a{
+    width:90%;
+    color:#fff;
+    text-decoration:none;
+    font-size:15px;
+    padding:4.7%;
+    height:auto;
+    background-color:#999;
+    border-bottom: 1px solid #ccc;
+    display:block;
+    text-align:left;
+}
+
+#menu_vertical a:hover{
+    background-color:#000;
+    border-color:#F00;
+}
+
+section {
+    position:relative;
+    width:60%;
+    height:500px;
+    float:left;
+}
+
+section header{
+    position:relative;
+    width:95%;
+    height:auto;
+    background-color:#FFF;
+    margin:auto;
+    color:#000;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+#div1 {
+    position:relative;
+    width:95%;
+    height:180px;
+    background-color:#CCAAAA;
+    margin:auto;
+    margin-top:10px;
+}
+
+img {
+    width:100%;
+    height:100%;
+}
+
+p {
+    position:relative;
+    width:93%;
+    height:auto;
+    background-color:#CCFFFF;
+    margin:auto;
+    font-size:12px;
+    color:#000;
+    text-align:justify;
+    margin-top:10px;
+    padding:1%;
+}
+
+#div2, #div3, #div4 {
+    position:relative;
+    width:30%;
+    height:120px;
+    background-color:#666;
+    margin-left:2.5%;
+    margin-top:10px;
+    float:left;
+}
+
+aside {
+    position:relative;
+    width:20%;
+    height:500px;
+    background-color:#CC99CC;
+    color:#FFF;
+    float:left;
+}
+
+footer {
+    position:relative;
+    width:100%;
+    height:auto;
+    background-color:#000;
+    padding-top:5px;
+    padding-bottom:5px;
+    clear:left;
+}
+
+.paginas {
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color: #ddd;
+    text-decoration: none;
+    margin: auto;
+    width: 170px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.anterior {
+    padding-right: 5%;
+}

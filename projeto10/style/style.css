@@ -1,0 +1,87 @@
+#fundo {
+ position: relative;   
+ width: 800px;
+ height: 548px;
+ background-color: #ccc;
+ margin: auto;
+}
+
+h1 {
+    padding-top: 1%;
+    padding-left: 6%;
+}
+
+#camada1 {
+    position: relative;
+    width: 170px;
+    height: 150px;
+    background-color: #ff0;
+    border: 5px solid #f00;
+    text-align: center;
+    font-size: 12px;
+    float: left;
+}
+
+#camada2 {
+    position: relative;
+    width: 170px;
+    height: 150px;
+    background-color: #0f0;
+    border: 5px solid #060;
+    text-align: center;
+    font-size: 12px;
+    float: left;
+}
+
+#camada3 {
+    position: relative;
+    width: 170px;
+    height: 150px;
+    background-color: #f66;
+    border: 5px solid #900;
+    text-align: center;
+    font-size: 12px;
+    clear:left;
+    float: left;
+}
+
+#camada4 {
+    position: relative;
+    width: 170px;
+    height: 150px;
+    background-color: #00f;
+    border: 5px solid #006;
+    text-align: center;
+    font-size: 12px;
+    float: left;
+}
+
+#camada5 {
+    position: relative;
+    width: 170px;
+    height: 150px;
+    background-color: #00f;
+    border: 5px solid #006;
+    text-align: center;
+    font-size: 12px;
+    clear: left;
+}
+
+#rodape {
+    margin-top: 15px;
+}
+
+.paginas {
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color: #ddd;
+    text-decoration: none;
+    margin: auto;
+    width: 170px;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.anterior {
+    padding-right: 5%;
+}
